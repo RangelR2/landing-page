@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #1f2937;
+    
+}
+
+nav{
+    padding: 30px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+    transition: 0.1s;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+li{
+    list-style: none;
+    padding-left: 30px;
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul{
+    display: flex;
+}
+
+.This{
+    color: #F9FAF8;
+    font-size: 50px;
+}
+
+.header-section{
+    justify-content: space-around;
+    display: flex;
+}
+
+.website{
+    padding-left: 10%;
+    width: 33%;
+    font-size: 18px;
+    color: #E5E7EB;
+    transform: translate(0,-260%);
+}
+
+.image p {
+    color:#F9FAF8;
+    justify-content: center;
+    text-align: center;
+}
+
+.image{
+    background-color: grey;
+    color: white;
+    padding: 10%;
+    
+}
+
+.botao{
+    border: none;
+    border-radius: 3px;
+    padding: 20px;
+    color: white;
+    background-color: #3882F6;
+    width: 155px;
+    font-size: 19px;
+    transform: translate(90%,-225%);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: #1f72f8;
+}
+
+.some{
+    color: #1f2937;
+    font-size: 24px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+
