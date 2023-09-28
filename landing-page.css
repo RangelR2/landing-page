@@ -6,7 +6,9 @@
 header{
     background-color: #1f2937;
     
+    
 }
+
 
 nav{
     padding: 30px;
@@ -92,8 +94,294 @@ ul{
 .some{
     color: #1f2937;
     font-size: 24px;
-    padding-top: 40px;
+    padding-top: 50px;
     text-align: center;
 }
 
+.box{
+    display: flex;
+    margin-top: 20px;
+}
 
+.box1{
+    border: 3px solid #3882F6;
+    padding-top: 130px;
+    padding-left: 130px;
+    border-radius: 10px;
+}
+
+.box2{
+    border: 3px solid #3882F6;
+    padding-top: 130px;
+    border-radius: 10px;
+    padding-left: 130px;
+}
+
+.box3{
+    border: 3px solid #3882F6;
+    padding-top: 130px;
+    border-radius: 10px;
+    padding-left: 130px;
+    
+}.box4{
+    border: 3px solid #3882F6;
+    padding-top: 130px;
+    padding-left: 130px;
+    border-radius: 10px;
+}
+
+section .cu{
+    display: flex;
+    justify-content: center;
+    color: grey;
+    
+}
+
+.section2{
+    height: 350px;
+    padding-bottom: 50px;
+    
+}
+
+.prebox2{
+    padding-left: 20px;
+}
+.prebox3{
+    padding-left: 20px;
+}
+.prebox4{
+    padding-left: 20px;
+}
+
+p .website{
+    text-align: center;
+    color: grey;
+}
+
+.section3{
+    background-color: #E5E7EB;
+    height: 290px;
+      
+}
+
+.sim{
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    font-style: italic;
+}
+
+.little{
+    justify-content: end;
+    font-size: 29px;
+    color: #1f2937;
+    display: flex;
+    
+}
+
+.insp{
+    padding-top: 50px;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+
+
+.section4{
+    justify-content: center;
+    padding-left: 50%;
+}
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #1f2937;
+    height: 560px;
+    
+    
+}
+
+.nav{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+    justify-content: space-between;
+    padding-bottom: 4%;
+    padding-top: 1%;
+}
+
+ul{
+    display: flex;
+    justify-content: end;
+    
+}
+
+.logo{
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    
+}
+
+.logo:hover{
+    opacity: 0.7;
+}
+
+.link{
+    
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 30px;
+    vertical-align: middle;
+    padding-top: 15px;
+}
+
+.link:hover{
+    opacity: 0.7;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.info{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 20px;
+    height: 265px;
+}
+
+.info-text{
+    width: 50%;
+    height: 200px;
+    
+}
+.info-img{
+    position: fixed;
+    justify-content: end;
+    position: relative;
+    display: block;
+    width: 590px;
+    background-color: gray;
+    justify-content: end;
+    right: 0;
+    padding-top: 20px;
+}
+
+.img-b{
+    padding-bottom: 70px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    height: 40px;
+    padding-top: 100px;
+}
+
+.this{
+    padding-bottom: 20px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+}
+
+.website2{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: none;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.section4{
+    height: 300px;
+    position: relative;
+    display: flex;
+}
+
+.blue{
+    background-color: #3882f6;
+    border-radius: 10px;
+    height: 150px;
+    text-align: center;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);display: flex;
+    
+}
+
+.text{
+    
+    color: white;
+    text-align: start;
+    padding-left: 90px;
+    padding-top: 55px;
+}
+
+.a1{
+    font-size: 20px;
+}
+
+.a2{
+    font-size: 14px;
+
+}
+
+.sign{
+    padding: 40px;
+    padding-top: 35px;
+    margin-left: 250px;
+    
+}
+
+.button1{
+    border: none;
+    border-radius: 9px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    border: 3px solid white;
+    cursor: pointer;
+    background-color: #3882f6;
+}
+
+.button1:hover{
+    background-color: #1c52aa;
+}
+
+footer{
+    height: 150px;
+    background-color: #1f2937;
+}
+
+.divtext{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    vertical-align: middle;
+    padding-top: 60px;
+}
