@@ -3,19 +3,120 @@
     font-family: 'Roboto', sans-serif;
 }
 
-nav{
-    padding: 30px;
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
+/*
+SECTION 1
+*/
+
+header{
+    background-color: #1f2937;
+    height: 560px;
+    justify-content: center;
 }
 
-li{
-    list-style: none;
-    padding-left: 30px;
+.info{
+    justify-content: space-around;
     display: flex;
+    padding-top: 20px;
+    height: 265px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.img-b{
+    padding-bottom: 70px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    height: 40px;
+    padding-top: 100px;
+}
+
+.this{
+    padding-bottom: 20px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+}
+
+button{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: none;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
     font-size: 18px;
+    margin-top: 15px;
+}
+
+.website2{
+    font-size: 16px;
+    width: 400px;
     color: #E5E7EB;
+}
+
+.info-img{
+    position: fixed;
+    justify-content: end;
+    position: relative;
+    display: block;
+    width: 590px;
+    margin-left: 3%;
+    background-color: gray;
+    justify-content: end;
+    right: 0;
+    padding-top: 20px;
+}
+
+
+.nav{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+    margin-right: 4%;
+    margin-left: 4%;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    padding-top: 20px;
+}
+
+ul{
+    display: flex;
+    justify-content: end;    
+}
+
+.logo:hover{
+    opacity: 0.7;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 30px;
+    vertical-align: middle;
+    padding-top: 15px;
+}
+
+.link:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    
+}
+
+
+li{
+    padding-top: 7px;
+    list-style: none;
 }
 
 .some{
@@ -64,6 +165,10 @@ section .cu{
     
 }
 
+/*
+SECTION 2
+*/
+
 .section2{
     height: 350px;
     padding-bottom: 50px;
@@ -79,6 +184,10 @@ section .cu{
 .prebox4{
     padding-left: 20px;
 }
+
+/*
+  SECTION 3
+*/
 
 .section3{
     background-color: #E5E7EB;
@@ -109,131 +218,13 @@ section .cu{
     padding: 50px 0px;
 }
 
-
+/*
+  SECTION 4
+*/
 
 .section4{
     justify-content: center;
     padding-left: 50%;
-}
-
-*{
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
-header{
-    background-color: #1f2937;
-    height: 560px;
-    
-}
-
-.nav{
-    display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
-    color: white;
-    justify-content: space-between;
-    padding-bottom: 4%;
-    padding-top: 1%;
-}
-
-ul{
-    display: flex;
-    justify-content: end;
-    
-}
-
-.logo{
-    color: white;
-    text-decoration: none;
-    font-size: 32px;
-    
-}
-
-.logo:hover{
-    opacity: 0.7;
-}
-
-.link{
-    
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-    padding-left: 30px;
-    vertical-align: middle;
-    padding-top: 15px;
-}
-
-.link:hover{
-    opacity: 0.7;
-}
-
-li{
-    list-style: none;
-    text-decoration: none;
-}
-
-.info{
-    display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-top: 20px;
-    height: 265px;
-}
-
-.info-text{
-    width: 50%;
-    height: 200px;
-    
-}
-.info-img{
-    position: fixed;
-    justify-content: end;
-    position: relative;
-    display: block;
-    width: 590px;
-    margin-left: 3%;
-    background-color: gray;
-    justify-content: end;
-    right: 0;
-    padding-top: 20px;
-}
-
-.img-b{
-    padding-bottom: 70px;
-    font-size: 15px;
-    text-align: center;
-    color: white;
-    height: 40px;
-    padding-top: 100px;
-}
-
-.this{
-    padding-bottom: 20px;
-    font-size: 48px;
-    font-weight: bolder;
-    color: white;
-}
-
-.website2{
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-button{
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 35px;
-    padding-right: 35px;
-    border: none;
-    background-color: #3882f6;
-    border-radius: 10px;
-    color: white;
-    font-weight: bolder;
-    font-size: 18px;
-    margin-top: 15px;
-}
-.section4{
     height: 300px;
     position: relative;
     display: flex;
@@ -274,6 +265,13 @@ button{
     padding-top: 35px;
     margin-left: 250px;
     
+}
+
+nav{
+    padding: 30px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .button1{
